@@ -25,7 +25,7 @@ tl.from(".button-sign",{
 })
 
 tl.from(".social-media",{
-    y:-50,
+    
     duration:0.4,
     opacity:0,
     delay:0.1,
