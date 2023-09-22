@@ -13,6 +13,9 @@
   width: 100%;
   position: absolute;
   top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #main::before {
@@ -27,7 +30,10 @@
   opacity: 0.4;
 }
 #navbar {
-  margin: 20px 0px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 
@@ -45,6 +51,7 @@
 }
 
 #navbar ul {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,9 +91,7 @@
   width: 100%; 
 }
 
-#body-centre {
-  margin-top: 150px;
-}
+
 
 .dd {
   position: relative;
@@ -144,6 +149,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%,-50%);
 
 }
 
@@ -160,7 +169,7 @@
 }
 
 
-/* for 700px */
+/* for 800px */
 
 @media screen and (max-width: 800px){
   #navbar ul li{
